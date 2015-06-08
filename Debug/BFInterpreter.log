@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/5/20 21:48:47。
+     1>项目“D:\Visual Studio 2010\My Projects\BFInterpreter\BFInterpreter\BFInterpreter.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\BFInterpreter.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BFInterpreter.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BFInterpreter.cpp
+         BFInterpreter.cpp
+     1>d:\visual studio 2010\my projects\bfinterpreter\bfinterpreter\bfinterpreter.cpp(69): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio 2010\My Projects\BFInterpreter\Debug\BFInterpreter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BFInterpreter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Visual Studio 2010\My Projects\BFInterpreter\Debug\BFInterpreter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio 2010\My Projects\BFInterpreter\Debug\BFInterpreter.lib" /MACHINE:X86 Debug\BFInterpreter.obj
+         Debug\stdafx.obj
+         BFInterpreter.vcxproj -> D:\Visual Studio 2010\My Projects\BFInterpreter\Debug\BFInterpreter.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Visual Studio 2010\My Projects\BFInterpreter\Debug\BFInterpreter.exe.manifest" /manifest Debug\BFInterpreter.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\BFInterpreter.unsuccessfulbuild”。
+         正在对“Debug\BFInterpreter.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Visual Studio 2010\My Projects\BFInterpreter\BFInterpreter\BFInterpreter.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.62
